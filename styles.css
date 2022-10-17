@@ -1,6 +1,36 @@
-#profile-pic {
-    display: block;
-    width: 200px;
-    height: auto;
+* {
+    /* outline: 1px solid red; */
+}
+
+body {
+    font-family: Montserrat;
+    background-color: #ECEFF4;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25vh;
+}
+
+.profile-img-bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socials {
+    width: 39.1rem;
+}
+
+.img-container {
+    margin-left: 2rem;
+}
+
+#profile-img {
+    width: 20vh;
+    margin-top: 1rem;
     border-radius: 50%;
+    
 }
